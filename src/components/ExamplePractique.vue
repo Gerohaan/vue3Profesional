@@ -1,8 +1,8 @@
 <template>
    <div>
-    <label for="" v-custom-size:sm>Subtotal</label>
+    <label for="" v-custom-font.red.xxl>Subtotal</label>
     <input type="number" v-model="subtotal" />
-    <h3 v-custom-size:xxl>Total impuestos a pagar: {{ totalVat  }} ({{ vat }}%)</h3>
+    <h3 v-custom-font.xxl.blue>Total impuestos a pagar: {{ totalVat  }} ({{ vat }}%)</h3>
    </div>
 </template>
 
